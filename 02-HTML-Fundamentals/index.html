@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- <head> 标签包含了页面的元数据和其他不直接在页面中显示的内容 -->
+  <head>
+    <meta charset="UTF-8" />
+    <title>The bascic Langing of the web:HTML</title>
+  </head>
+
+  <!-- <body> 标签包含了网页的主要内容，即用户在浏览器中可见的部分 -->
+  <body>
+    <!-- h1 2 3 4 5 6代表不同大小的标题 -->
+    <!-- <h1>The bascic Langing of the web:HTML</h1>
+    <h2>The bascic Langing of the web:HTML</h2>
+    <h3>The bascic Langing of the web:HTML</h3>
+    <h4>The bascic Langing of the web:HTML</h4>
+    <h5>The bascic Langing of the web:HTML</h5>
+    <h6>The bascic Langing of the web:HTML</h6> -->
+
+    <!-- <p> 标签用于在 HTML 中定义一个段落（paragraph）。它是最常用的标签之一，用于分隔和组织网页中的文本内容。每个 <p> 标签会自动在段落前后添加一定的空白，从而使得段落之间更加易于阅读和区分。 -->
+    <header>
+      <h1>📘 The Code Magazine</h1>
+      <nav>
+        <a href="blog.html">Blog</a>
+        <a href="#">Challenges</a>
+        <a href="#">Flexbox</a>
+        <a href="#">Css Grind</a>
+      </nav>
+    </header>
+
+    <article>
+      <header>
+        <h2>The Basic Language of the Web: HTML</h2>
+
+        <img
+          src="img/laura-jones.jpg"
+          alt=" a womem's photo "
+          width="50"
+          height="50"
+        />
+
+        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+
+        <!-- alt 属性用于 HTML 中的 <img> 标签，表示图像的替代文本（alternative text）： -->
+        <img
+          src="img/post-img.jpg"
+          alt="a html text"
+          width="500"
+          height="200"
+        />
+      </header>
+      <p>
+        All modern websites and web applications are built using three
+        <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are
+        the languages of the web.
+      </p>
+      <p>
+        In this post, let's focus on HTML. We will learn what HTML is all about,
+        and why you too should learn it.
+      </p>
+
+      <h3>What is HTML?</h3>
+      <p>
+        HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+        <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+        language that web developers use to structure and describe the content
+        of a webpage (not a programming language).
+      </p>
+      <p>
+        HTML consists of elements that describe different types of content:
+        paragraphs, links, headings, images, video, etc. Web browsers understand
+        HTML and render HTML code as websites.
+      </p>
+      <p>In HTML, each element is made up of 3 parts:</p>
+
+      <!-- 带1.
+     2.
+     3.
+     这样的 -->
+      <ol>
+        <li>The opening tag</li>
+        <li>The closing tag</li>
+        <li>The actual element</li>
+      </ol>
+
+      <!-- a代表anchor 锚 可以放超链接转到其他页面 -->
+      <p>
+        You can learn more at
+        <!-- taget 让超链接里面网页单独打开，不会覆盖自己的网页 -->
+        <a
+          href="https://developer.mozilla.org/zh-CN/docs/Web/HTML"
+          target="_blank"
+          >MDN Web Doces</a
+        >.
+      </p>
+      <h3>Why should you learn HTML?</h3>
+
+      <p>
+        There are countless reasons for learning the fundamental language of the
+        web. Here are 5 of them:
+      </p>
+
+      <!-- 相比较起ol无序号的 -->
+      <ul>
+        <li>To be able to use the fundamental web dev language</li>
+        <li>
+          To hand-craft beautiful websites instead of relying on tools like
+          Worpress or Wix
+        </li>
+        <li>To build web applications</li>
+        <li>To impress friends</li>
+        <li>To have fun 😃</li>
+      </ul>
+      <p>Hopefully you learned something new here. See you next time!</p>
+    </article>
+
+    <!-- aside次要内容 -->
+    <aside>
+      <h3>Realted posts</h3>
+
+      <ul>
+        <li>
+          <img
+            src="img/related-1.jpg"
+            alt="a man coding"
+            height="75"
+            width="75"
+          />
+          <a href="#">How to learn Web Development</a>
+
+          <p>By Joshua</p>
+        </li>
+
+        <li>
+          <img src="img/related-2.jpg" alt="thunder" height="75" width="75" />
+          <a href="#">The unknow power of css</a>
+          <p>By Dick</p>
+        </li>
+        <li>
+          <img src="img/related-3.jpg" alt="coding" height="75" width="75" />
+          <a href="#">Why JavaScript is Awesome</a>
+          <p>By sb</p>
+        </li>
+      </ul>
+    </aside>
+
+    <footer>Copyright &copy; 2027 by Joshua
+
+      <a href="Challenge.html">Challenge</a>
+    </footer>
+  </body>
+</html>
